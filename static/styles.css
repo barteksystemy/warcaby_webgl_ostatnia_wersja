@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#navbar {
+    width: auto;
+    height: 100px;
+    background-color: green;
+    border: 1px solid greenyellow;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dialog {
+    position: absolute;
+    height: 89vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dialog2 {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dialog_tekst {
+    color: greenyellow;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#dialog_name {
+    margin-bottom: 20px;
+    width: 230px;
+    height: 40px;
+    border: 2px solid greenyellow;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#dialog_submit {
+    margin-bottom: 20px;
+    width: 234px;
+    height: 80px;
+    background-color: greenyellow;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#dialog_reset {
+    margin-bottom: 20px;
+    width: 234px;
+    height: 80px;
+    background-color: greenyellow;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.czekaj {
+    position: absolute;
+    height: 89vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wait {
+    position: absolute;
+    height: 89vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
